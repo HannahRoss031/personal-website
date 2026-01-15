@@ -1,0 +1,159 @@
+
+html{
+    font-style: normal;
+    scroll-behavior: smooth;
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("beautifulorchids.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: floralwhite;
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    width: 60%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#home {
+    font-size: x-large;
+    text-align: center;
+    color: darkslateblue;
+}
+
+.homeContainer {
+    position: relative;
+    align-items: center;
+    background-color: midnightblue;
+    display: flex;
+    height: 50vh;
+    width: 80vw;
+    margin-top: 130px;
+}
+
+.homeCard {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 10px 10px 30px black;
+
+    margin-top: -150px;
+    margin-left: 30px;
+}
+
+.aboutCard {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 10px 10px 30px black;
+
+    margin-top: -150px;
+    margin-left: 30px;
+}
+
+.projectsCard {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 10px 10px 30px black;
+
+    margin-top: -150px;
+    margin-left: 30px;
+}
+
+.contactCard {
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 10px 10px 30px black;
+
+    margin-top: -150px;
+    margin-left: 30px;
+}
+
+#myName {
+    font-size: x-large;
+    color: floralwhite;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -270px;
+
+    position: relative;
+    z-index: 100;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: -160px;
+}
+
+#instaBox {
+    background-image: url("Instagram_icon.png");
+    background-size: cover;
+
+    height: 50px;
+    width: 50px;
+
+    margin-right: 20px;
+
+    position: relative;
+    z-index: 100;
+}
+
+#linkedinBox {
+    background-image: url("betterLinked.png");
+    background-size: cover;
+    border-radius: 5px;
+
+    height: 50px;
+    width: 50px;
+
+    margin-right: 20px;
+
+    position: relative;
+    z-index: 100;
+}
+
+#githubBox {
+    background-image: url("github.png");
+    background-size: cover;
+    border-radius: 8px;
+
+    height: 50px;
+    width: 50px;
+
+    margin-right: 20px;
+
+    position: relative;
+    z-index: 100;
+}
